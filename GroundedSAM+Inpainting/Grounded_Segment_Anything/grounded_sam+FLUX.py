@@ -1,3 +1,14 @@
+# Environment Setup
+# pip install accelerate transformers sentencepiece huggingface_hub openai diffusers pillow
+# pip install torch==2.4.1 torchvision==0.19.1 --index-url https://download.pytorch.org/whl/cu124    # Change the torch version according to your machine
+# python -m pip install -e segment_anything
+# wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
+# wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
+# pip install --no-build-isolation -e GroundingDINO
+# git clone https://github.com/xinyu1205/recognize-anything.git
+# pip install -r ./recognize-anything/requirements.txt
+# pip install -e ./recognize-anything/
+
 import argparse
 import os
 import sys
